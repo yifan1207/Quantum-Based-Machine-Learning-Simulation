@@ -55,3 +55,4 @@ qml_pdbs = ["qml_pdb1.pdb", "qml_pdb2.pdb", "qml_pdb3.pdb", "qml_pdb4.pdb"]
 # Call the compare_pdbs function and print the result
 repeated_pdbs = compare_pdbs(qs_pdbs, qml_pdbs)
 print("The repeated PDB files are:", repeated_pdbs)
+#for int...
