@@ -43,3 +43,5 @@ for i in range(M):
 
 # Printing the number of filtered compounds
 print(f"Number of filtered compounds: {len(filtered)}")
+
+# prototype...
