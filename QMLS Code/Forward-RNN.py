@@ -27,5 +27,5 @@ class MLMG(nn.Module):
             h = self.rnn_cell(x[i,:,:], h)
         # Pass the final hidden state to the linear layer and store the result as out
         out = self.fc(h)
-        # Pass out to the softmax layer and return the result
+        # Pass out to the softmax layer and return result
         return self.softmax(out)
