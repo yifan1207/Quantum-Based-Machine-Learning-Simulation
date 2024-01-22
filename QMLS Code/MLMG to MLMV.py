@@ -1,4 +1,4 @@
-# Import modules
+# Import module
 import torch
 import torch.nn as nn
 import torch.optim as optim
