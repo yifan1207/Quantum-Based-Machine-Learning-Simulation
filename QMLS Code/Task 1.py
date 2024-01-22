@@ -103,5 +103,5 @@ def train_model(model, criterion, optimizer, scheduler, num_epochs=25):
     model.load_state_dict(best_model_wts)
     return model
 
-# Train the model
+# Train model
 model = train_model(model, criterion, optimizer, scheduler, num_epochs=25)
