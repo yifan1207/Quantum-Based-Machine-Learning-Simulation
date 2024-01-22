@@ -47,7 +47,7 @@ def unmask(protein, mask_type, mask_idx, mask_val, output):
         protein[mask_idx, 3] = amino_type
     return protein
 
-# Load pre-trained model
+# Load pre trained model
 model = torch.load('model.pt')
 model.to(device)
 
