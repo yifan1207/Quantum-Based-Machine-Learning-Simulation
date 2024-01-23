@@ -1,4 +1,4 @@
-# Import numpy for numerical operations
+# Import numpy for numerical operation
 import numpy as np
 
 # Define a function to convert PDB files to numerical arrays
