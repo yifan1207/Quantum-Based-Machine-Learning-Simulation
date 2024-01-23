@@ -1,4 +1,4 @@
-# Import numpy for numerical operations and qiskit for quantum computing
+
 import numpy as np
 import qiskit as qk
 
