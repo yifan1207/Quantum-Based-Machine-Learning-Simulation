@@ -5,7 +5,7 @@ import torch.optim as optim
 import numpy as np
 import esm # pre-trained ESM2 model
 
-# Define encode function
+# Define encode functions
 def encode(molecule):
     # molecule is a numpy array of shape (N, 4), where N is the number of amino acids, and 4 corresponds to x, y, z, and type
     # use the ESM2 model to convert the molecule to an embedding vector of shape (1, 1280)
