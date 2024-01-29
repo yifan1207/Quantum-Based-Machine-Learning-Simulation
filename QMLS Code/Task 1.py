@@ -7,7 +7,7 @@ import torchvision.transforms as transforms
 import numpy as np
 import os
 
-# Define data transforms
+# Define data transform
 data_transforms = {
     'train': transforms.Compose([
         transforms.RandomResizedCrop(224),
