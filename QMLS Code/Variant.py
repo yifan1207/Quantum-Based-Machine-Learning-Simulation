@@ -4,7 +4,7 @@ import qiskit as qk
 
 # Define a function to create variants of compounds using genetic algorithm and quantum randomness
 def create_variants(compounds, fitness, target, iterations):
-  # Initialize an empty list to store the variants
+  # Initialize an empty list to store the variant
   variants = []
   # Loop through the number of iterations
   for i in range(iterations):
