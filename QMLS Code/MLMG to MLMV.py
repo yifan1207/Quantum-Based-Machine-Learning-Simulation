@@ -121,7 +121,7 @@ loss.backward()
 optimizer.step()
 # update the learning rate
 scheduler.step()
-# update the running loss and reward
+# update the running loss & reward
 running_loss += loss.item()
 running_reward += cumulative_rewards[-1].item()
 # print the running loss and reward at the end of each episode
