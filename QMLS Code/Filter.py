@@ -3,7 +3,7 @@ import numpy as np
 import qutip as qt
 import cirq as cq
 
-# Defining constants and parameters
+
 N = 100 # Number of qubits
 M = 1000 # Number of compounds
 T = 10 # Number of iterations
