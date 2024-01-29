@@ -4,7 +4,7 @@ import torch.nn as nn
 import torch.optim as optim
 import numpy as np
 import gym
-import esm # pre-trained ESM2 model
+import esm # pre-trained ESM2 models
 
 # Define sample function
 def sample(molecule):
