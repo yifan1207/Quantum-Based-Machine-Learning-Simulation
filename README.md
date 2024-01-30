@@ -2,7 +2,7 @@
 
 <img width="756" alt="image" src="https://github.com/yifan1207/Quantum-Based-Machine-Learning-Simulation/assets/117659507/4e480982-8f41-4d9e-b1a9-854715a4edc9">
 
-Developing new drugs is a long and expensive process. We propose a new method that uses quantum computing and machine learning to speed up this process from 8-15 years to 1-2 years. Our method has three steps:
+Developing new drugs is a long and expensive process. We propose a new method that uses quantum computing and machine learning to speed up this process from 8-15 years to 1.5-2 years. Our method has three steps:
 
 First, we use machine learning molecule generation to create many potential drug candidates based on the structure of the virus we want to target. Then, we will also use quantum computing simulation to filter top drug candidates' reaction and binding efficiency with the target virus from a large input initial pool of molecules.
 
