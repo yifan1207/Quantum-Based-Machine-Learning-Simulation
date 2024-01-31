@@ -14,7 +14,7 @@ def encode(molecule):
     state = cirq.StateVectorTrialResult.from_state_vector(embedding, qubit_order=None)
     return state
 
-# Define decode function
+# Define decode functions
 def decode(state):
     # state is a cirq.StateVectorTrialResult object, representing the quantum state of a molecule
     # use the cirq library to simulate the quantum state
