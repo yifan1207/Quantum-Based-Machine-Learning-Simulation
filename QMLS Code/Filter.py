@@ -20,7 +20,7 @@ device = cq.Circuit()
 
 # Adding gates to the device to simulate the interaction between compounds and target
 for i in range(N):
-    device.append(cq.CNOT(target[i], compounds[0][i])) # Entangle the target with the first compound
+    device.append(cq.CNOT(target[i], compounds[0][i])) # Entangle the target with the first compounds
     for j in range(1, M):
         device.append(cq.SWAP(compounds[j-1][i], compounds[j][i])) # Swap the compounds along the chain
     device.append(cq.CNOT(target[i], compounds[M-1][i])) # Entangle the target with the last compound
