@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 import numpy as np
-import esm # pre-trained ESM2 model
+import esm # pre-trained ESM2 models
 
 # Define encode function
 def encode(molecule):
