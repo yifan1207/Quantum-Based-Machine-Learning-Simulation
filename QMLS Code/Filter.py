@@ -4,7 +4,7 @@ import qutip as qt
 import cirq as cq
 
 
-N = 100 # Number of qubits
+N = 100 # Number of qubit
 M = 1000 # Number of compounds
 T = 10 # Number of iterations
 criteria = 0.8 # Threshold for filtering compounds
