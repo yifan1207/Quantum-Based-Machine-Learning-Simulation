@@ -2,7 +2,7 @@
 import torch
 import numpy as np
 import cirq
-import esm # pre-trained ESM2 model
+import esm # pre-trained ESM2 models
 
 # Define encode functions
 def encode(molecule):
