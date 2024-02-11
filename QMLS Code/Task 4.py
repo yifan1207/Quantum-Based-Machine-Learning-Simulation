@@ -4,7 +4,6 @@ import torch.optim as optim
 import numpy as np
 import gym
 import esm # pre-trained ESM2 models
-
 # Define sample function
 def sample(molecule):
     # molecule is a numpy array of shape (N, 4), where N is the number of amino acids, and 4 corresponds to x, y, z, and type
