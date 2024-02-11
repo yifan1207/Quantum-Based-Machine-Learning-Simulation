@@ -3,7 +3,6 @@ import torch.nn as nn
 import torch.optim as optim
 import numpy as np
 import esm # pre-trained ESM2 model 
-
 # Define mask functions
 def mask(protein):
     # protein is a numpy array of shape (N, 4), where N is the number of amino acids, and 4 corresponds to x, y, z, and type
