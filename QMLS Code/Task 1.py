@@ -5,7 +5,6 @@ import torchvision
 import torchvision.transforms as transforms
 import numpy as np
 import os
-
 # Define data transforms
 data_transforms = {
     'train': transforms.Compose([
