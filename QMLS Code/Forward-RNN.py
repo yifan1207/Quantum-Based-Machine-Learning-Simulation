@@ -1,5 +1,5 @@
 # load torch
-import torch
+import torch 
 import torch.nn as nn
 
 # Define the MLMG class as a subclas of nn.Modules
