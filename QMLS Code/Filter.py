@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np 
 import qutip as qt
 import cirq as cq
 N = 100 # Number of qubit
