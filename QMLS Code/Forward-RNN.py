@@ -2,7 +2,7 @@
 import torch 
 import torch.nn as nn
 
-# Define the MLMG class as a subclas of nn.Modules
+# Define the MLMG class as a subclas of nn.Modul es
 class MLMG(nn.Module):
     # Define the constructor with input_size, hidden_size, output_size as parameters
     def __init__(self, input_size, hidden_size, output_size):
