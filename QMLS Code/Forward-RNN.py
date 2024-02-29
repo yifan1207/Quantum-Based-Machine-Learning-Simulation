@@ -1,4 +1,4 @@
-# load torch 
+# load torch
 import torch 
 import torch.nn as nn
 
