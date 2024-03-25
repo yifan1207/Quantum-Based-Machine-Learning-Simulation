@@ -1,5 +1,5 @@
 import numpy as np
-import qiskit as qk 
+import qiskit as qk  
 
 # Define a function to create variants of compounds using genetic algorithm and quantum randomness
 def create_variants(compounds, fitness, target, iterations):
