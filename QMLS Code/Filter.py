@@ -1,6 +1,6 @@
-import numpy as np  
+ import numpy as np  
 import qutip as qt
-import cirq as cq 
+import cirq as cq  
 N = 100 # Number of qubit
 M = 1000 # Number of compounds
 T = 10 # Number of iterations
