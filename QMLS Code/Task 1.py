@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn       
 import torch.optim as optim    
 import torchvision
-import torchvision.transforms as transforms
+import torchvision.transforms as transforms 
 import numpy as np
 import os
 # Define data transforms
