@@ -1,6 +1,6 @@
 # Import numpy for operation     
 import numpy as np     
-  
+   
 # Define a function to convert PDB files to numerical arrays
 def pdb_to_array(pdb_file):
   # Read the pdb file and extract the coordinates of the atoms
